@@ -115,7 +115,7 @@ function fruits(){
     {
     fruit.x=600;
     //update below give line of code for increase fruitGroup speed by 4
-    fruit.velocityX=-7
+    fruit.velocityX=-(7+(score/6))
     }
     else
     {
@@ -123,7 +123,7 @@ function fruits(){
       fruit.x=0;
       
      //update below give line of code for increase fruitGroup speed by 4
-      fruit.velocityX= 7;
+      fruit.velocityX= (7+(score/6));
       }
     }
     
